@@ -12,7 +12,7 @@ public class Solution
         Tiempo: O(n log n) (por el ordenamiento)
         Espacio: O(1) adicional
 
-        LINK SOLUCIÓN: https://leetcode.com/problems/non-overlapping-intervals/submissions/1947953940
+        LINK SOLUCIÓN: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/1948106824
     ***/
     public int EraseOverlapIntervals(int[][] intervals)
     {
