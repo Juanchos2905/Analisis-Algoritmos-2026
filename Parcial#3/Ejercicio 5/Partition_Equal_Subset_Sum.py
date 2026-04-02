@@ -12,21 +12,23 @@ class Solution:
         Complejidad:
         Tiempo: O(n * suma_objetivo)
         Espacio: O(suma_objetivo)
+
+        Link https://leetcode.com/problems/partition-equal-subset-sum/submissions/1966368003
         """
         suma_total = sum(nums)
 
-        # Si la suma total es impar, no puede dividirse en partes iguales
+   
         if suma_total % 2 != 0:
             return False
 
         suma_objetivo = suma_total // 2
 
-        # suma_alcanzable[i] indica si es posible formar la suma i
+        
         suma_alcanzable = [False] * (suma_objetivo + 1)
-        suma_alcanzable[0] = True  # Siempre podemos formar suma 0
+        suma_alcanzable[0] = True
 
         for numero_actual in nums:
-            # Recorremos hacia atrás para evitar reutilizar el mismo número
+
             for suma_en_evaluacion in range(
                 suma_objetivo, 
                 numero_actual - 1, 
