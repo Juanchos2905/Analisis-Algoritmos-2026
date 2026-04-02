@@ -8,6 +8,8 @@ public class Solution {
         Complejidad:
         Tiempo: O(n log n)
         Espacio: O(n)
+
+        LINK: https://leetcode.com/problems/longest-increasing-subsequence/submissions/1964402895
     ***/
     public int LengthOfLIS(int[] nums) {
         if (nums == null || nums.Length == 0)

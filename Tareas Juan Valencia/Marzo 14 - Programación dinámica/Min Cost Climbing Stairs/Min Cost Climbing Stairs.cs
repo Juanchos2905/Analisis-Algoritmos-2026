@@ -21,6 +21,8 @@ public class Solution
             Complejidad:
             Tiempo: O(n)
             Espacio: O(n)
+
+            LINK: https://leetcode.com/problems/min-cost-climbing-stairs/submissions/1967214915
         ***/
 
         int cantidadEscalones = cost.Length;
